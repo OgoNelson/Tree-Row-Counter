@@ -1,0 +1,114 @@
+body {
+    overflow: hidden;
+    margin: 0;
+}
+.rootdiv {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("bgpics.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-top: 10vh;
+    padding-bottom: 0;
+    font-family: serif;
+}
+.maindiv {
+    width: 70vw;
+    height: 70vh;
+    margin: 0 auto;
+    padding-top: 10vh;
+    background-color: #ddd6d6;
+}
+.maindiv h2, h1 {
+    text-align: center;
+}
+.counter-btn {
+    text-align: center;
+}
+.counter-btn button {
+    background-color: darkred;
+}
+.save-btn {
+    text-align: center;
+}
+.save-btn button {
+    background-color: #0c7711;
+    margin-top: 2vh;
+}
+button {
+    width: 30vw;
+    height: 6vh;
+    color: #fff;
+    border-radius: 2vw;
+    border: none;
+    font-size: 2vw 0.1vh;
+    font-family: serif;
+    padding: 0;
+}
+p {
+    text-align: center;
+    font-size: 4vw;
+}
+button:hover {
+    width: 30.5vw;
+    height: 6.5vh;
+}
+h1, h2 {
+    font-size: 4vh;
+}
+@media only screen and (min-width: 600px){
+.maindiv {
+    width: 60vw;
+    height: 70vh;
+    margin: 0 auto;
+    padding-top: 10vh;
+    background-color: #ddd6d6;
+}
+button {
+    color: #fff;
+    border: none;
+    border-radius: 1vw;
+    width: 20vw;
+    height: 7vh;
+    font-size: 2.5vw 0.1vh;
+    padding: 0;
+    margin-top: 2vh;
+}
+button:hover {
+    width: 20.5vw;
+    height: 7.5vh;
+}
+p {
+    text-align: center;
+    font-size: 3.5vw;
+}
+}
+@media only screen and (min-width: 768px){
+    .maindiv {
+        width: 50vw;
+        height: 70vh;
+        margin: 0 auto;
+        padding-top: 10vh;
+        background-color: #ddd6d6;
+    }
+    button {
+        color: #fff;
+        border: none;
+        border-radius: 1vw;
+        width: 15vw;
+        height: 7vh;
+        font-size: 3vh;
+        padding: 0;
+        margin-top: 2vh;
+    }
+    button:hover {
+        width: 15.5vw;
+        height: 7.5vh;
+    }
+    p {
+        text-align: center;
+        font-size: 2.7vw;
+    }
+    }
